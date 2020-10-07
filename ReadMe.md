@@ -10,7 +10,7 @@ We propose a novel super-resolution model named Semantic Encoder guided Generati
 
 ![new_overview_921](https://github.com/KennethXiang/Semantic-Encoder-Guided-Generative-Adversarial-Network-For-Face-Image-Super-Resolution/blob/master/918_overview%20(1).png)
 
-**Figure 1. Proposed SEGAN and its subnetworks: semantic Encoder $$E$$, Generator $$G$$, Discriminator $$D$$ and Feature Extractor $$\phi$$.** DCB describes the dense connection block. $$I^{HR}$$ and $$I^{LR}$$ denote HR face images and LR face images respectively. $$I^{SR}$$ is super-resolved images from $$G$$. Futhermore, $$E(\cdot)$$ denotes global semantic embedded obtained from $$E$$. Morever $$D(\cdot)$$ represents the output probability of $$D$$. $\phi(I^{HR})$ and $$\phi(I^{SR})$$ describes the features learned by $$\phi$$.
+**Figure 1. Proposed SEGAN and its subnetworks: semantic Encoder $E$, Generator $G$, Discriminator $D$ and Feature Extractor $\phi$.** DCB describes the dense connection block. $I^{HR}$ and $I^{LR}$ denote HR face images and LR face images respectively. $I^{SR}$ is super-resolved images from $G$. Futhermore, $E(\cdot)$ denotes global semantic embedded obtained from $E$. Morever $D(\cdot)$ represents the output probability of $D$. $\phi(I^{HR})$ and $\phi(I^{SR})$ describes the features learned by $\phi$.
 
 
 
@@ -38,11 +38,11 @@ Furthermore, Dense Connection Block (DCB), as illustirted in Fig. 3, is built up
 
 ## Overall objective function
 
-The total loss function $$L_{perceptual}$$ for generator can be represented as weighted combination of two parts: content loss $$L_{content}$$ and adversarial loss $$L_{G}^{adv}$$, the formula are described as follow:
+The total loss function $L_{perceptual}$ for generator can be represented as weighted combination of two parts: content loss $L_{content}$ and adversarial loss $L_{G}^{adv}$, the formula are described as follow:
 
-$$ L_{perceptual} = \lambda _{con}L_{Content} + \lambda_{adv}L_{G}^{adv}$$ 																													(4)
+$ L_{perceptual} = \lambda _{con}L_{Content} + \lambda_{adv}L_{G}^{adv}$ 																													(4)
 
-where $$\lambda_{con}$$ , $$\lambda_{adv}$$ are the trade-off weights for the $$L_{content}$$ and the $$L_{Adversarial}$$ . We set $$\lambda_{con}$$ , $$\lambda_{adv}$$ empirically to 1 and $$10^{-3}$$ respectively. As a result of the $$L_{perceptual}$$ , Our generator can be updated effectively so that it is able to learn the LR-HR mappling.
+where $\lambda_{con}$ , $\lambda_{adv}$ are the trade-off weights for the $L_{content}$ and the $L_{Adversarial}$ . We set $\lambda_{con}$ , $\lambda_{adv}$ empirically to 1 and $10^{-3}$ respectively. As a result of the $L_{perceptual}$ , Our generator can be updated effectively so that it is able to learn the LR-HR mappling.
 
 
 
