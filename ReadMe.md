@@ -8,9 +8,9 @@ We propose a novel super-resolution model named Semantic Encoder guided Generati
 
 
 
-![new_overview_921](/Users/wangxiang/Downloads/new_overview_921.png)
+![new_overview_921](https://github.com/KennethXiang/Semantic-Encoder-Guided-Generative-Adversarial-Network-For-Face-Image-Super-Resolution/blob/master/918_overview%20(1).png)
 
-Figure 1.  **Proposed SEGAN and its subnetworks: semantic Encoder $$E$$, Generator $$G$$, Discriminator $$D$$ and Feature Extractor $$\phi$$.** DCB describes the dense connection block. $$I^{HR}$$ and $$I^{LR}$$ denote HR face images and LR face images respectively. $$I^{SR}$$ is super-resolved images from $$G$$. Futhermore, $$E(\cdot)$$ denotes global semantic embedded obtained from $$E$$. Morever $$D(\cdot)$$ represents the output probability of $$D$$. $\phi(I^{HR})$ and $$\phi(I^{SR})$$ describes the features learned by $$\phi$$.
+**Figure 1. Proposed SEGAN and its subnetworks: semantic Encoder $$E$$, Generator $$G$$, Discriminator $$D$$ and Feature Extractor $$\phi$$.** DCB describes the dense connection block. $$I^{HR}$$ and $$I^{LR}$$ denote HR face images and LR face images respectively. $$I^{SR}$$ is super-resolved images from $$G$$. Futhermore, $$E(\cdot)$$ denotes global semantic embedded obtained from $$E$$. Morever $$D(\cdot)$$ represents the output probability of $$D$$. $\phi(I^{HR})$ and $$\phi(I^{SR})$$ describes the features learned by $$\phi$$.
 
 
 
@@ -22,7 +22,7 @@ In the specific design of the generator architecture, we incorporate residual le
 
 
 
-![Dense Block-RIDB_formal](/Users/wangxiang/Downloads/Dense Block-RIDB_formal.png)
+![Dense Block-RIDB_formal](https://github.com/KennethXiang/Semantic-Encoder-Guided-Generative-Adversarial-Network-For-Face-Image-Super-Resolution/blob/master/Dense%20Block-RIDB_formal.png)
 
 **Figure 2. The basic block used in SEGAN called Residual in Internel Dense Block(RIDB)**. The block of middle describes performing addition operation.
 
@@ -30,7 +30,7 @@ Furthermore, Dense Connection Block (DCB), as illustirted in Fig. 3, is built up
 
 
 
-![Dense Block-Dense Block Formal](/Users/wangxiang/Downloads/Dense Block-Dense Block Formal.png)
+![Dense Block-Dense Block Formal](https://github.com/KennethXiang/Semantic-Encoder-Guided-Generative-Adversarial-Network-For-Face-Image-Super-Resolution/blob/master/Dense%20Block-Dense%20Block%20Formal.png)
 
 **Figure 3. Multiple Residual Dense Block**. RIDB denotes Residual in Internel Dense Block
 
@@ -58,7 +58,7 @@ The quantitative comparison among state-of-the-art methods were demonstrated in 
 
 ##### Quantitative Comparison
 
-![comparsons](/Users/wangxiang/Code/Github_Repository/Semantic-Encoder-Guided-Generative-Adversarial-Network-For-Face-Image-Super-Resolution/comparsons.png)
+![comparsons](https://github.com/KennethXiang/Semantic-Encoder-Guided-Generative-Adversarial-Network-For-Face-Image-Super-Resolution/blob/master/comparsons.png)
 
 **Table1. Quantitative comparison on CelebA dataset for scale factor x4,x8 in terms of average PSNR(db) and SSIM. Numerical  in bold are indicated the best evaluation results among state-of-the-art methods.**
 
@@ -68,31 +68,23 @@ The quantitative comparison among state-of-the-art methods were demonstrated in 
 
 Qualitative results were depicted in Fig5. and Fig6. 
 
-![Dense Block-celeba 4x_result (1)](/Users/wangxiang/Downloads/Dense Block-celeba 4x_result (1).png)
+![Dense Block-celeba 4x_result (1)](https://github.com/KennethXiang/Semantic-Encoder-Guided-Generative-Adversarial-Network-For-Face-Image-Super-Resolution/blob/master/Dense%20Block-celeba%204x_result%20(1).png)
 
 **Fig5. Qualitative comparison of 4x super-resolved face images on CelebA dataset. Column: (a) HR ground truth; (b) Input LR; (c) Bicubic (d) SRGAN (e) ESRGAN (f) Our method.** 
 
 
 
-![Dense Block-celeba_8x_result (1)](/Users/wangxiang/Downloads/Dense Block-celeba_8x_result (1).png)
+![Dense Block-celeba_8x_result (1)](https://github.com/KennethXiang/Semantic-Encoder-Guided-Generative-Adversarial-Network-For-Face-Image-Super-Resolution/blob/master/Dense%20Block-celeba_8x_result%20(1).png)
 
 **Fig6. Qualitative comparison of 8x super-resolved face images on CelebA dataset. Column: (a) HR ground truth; (b) Input LR; (c) Bicubic (d) SRGAN (e) ESRGAN (f) Our method.** 
 
-
-
-![Helen_8x_result](/Users/wangxiang/Downloads/Helen_8x_result.png)
-
-**Fig6. Qualitative comparison of 8x super-resolved face images on Helen dataset. Column: (a) HR ground truth; (b) Input LR; (c) Bicubic (d) SRGAN (e) ESRGAN (f) Our method.** 
-
-
-
-![Helen_4x_result](/Users/wangxiang/Downloads/Helen_4x_result.png)
+![Helen_4x_result](https://github.com/KennethXiang/Semantic-Encoder-Guided-Generative-Adversarial-Network-For-Face-Image-Super-Resolution/blob/master/Helen_4x_result.png)
 
 **Fig6. Qualitative comparison of 4x super-resolved face images on Helen dataset. Column: (a) HR ground truth; (b) Input LR; (c) Bicubic (d) SRGAN (e) ESRGAN (f) Our method.** 
 
+![Helen_8x_result](https://github.com/KennethXiang/Semantic-Encoder-Guided-Generative-Adversarial-Network-For-Face-Image-Super-Resolution/blob/master/Helen_8x_result.png)
 
-
-
+**Fig6. Qualitative comparison of 8x super-resolved face images on Helen dataset. Column: (a) HR ground truth; (b) Input LR; (c) Bicubic (d) SRGAN (e) ESRGAN (f) Our method.** 
 
 ## References
 
