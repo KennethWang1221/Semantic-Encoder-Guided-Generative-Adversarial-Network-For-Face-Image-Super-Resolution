@@ -2,6 +2,12 @@
 
 
 
+**Import Disclaimer Note**
+
+This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible.
+
+
+
 ## Proposed Method ##
 
 We propose a novel super-resolution model named Semantic Encoder guided Generative Adversarial Network (SEGAN). Our SEGAN has three key components: Sementic Encoder (as shown in Fig. 1), new architecture for generator(as shown in Fig. 2, 3), and least squares discriminator. In this section, we first discuss the benefits of sementic encoder, then describe the proposed generator architecture. Finally, we illustrate the least squares discriminator used to optimize the adversarial process. The entire architecture of SEGAN is illustrated in Fig. 1.
